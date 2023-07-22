@@ -1,8 +1,8 @@
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Layout from '../components/layout';
-import SocialIcons from '../components/SocialIcons';
+import React from "react";
+// import 'bootstrap/dist/css/bootstrap.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+import Layout from "../components/layout";
+import SocialIcons from "../components/SocialIcons";
 
 const Profile = () => {
   return (
@@ -15,19 +15,21 @@ const Profile = () => {
 
           {/* Introduction */}
           <p>
-            I am a software developer with a passion for learning and building websites. 
-            I have a strong educational background in computer science and have gained valuable experience 
-            through various projects and internships.
+            I am a software developer with a passion for learning and building
+            websites. I have a strong educational background in computer science
+            and have gained valuable experience through various projects and
+            internships.
           </p>
           <p>
-            I am particularly passionate about JavaScript and its ecosystem. I enjoy exploring the latest 
-            web development technologies and frameworks to create responsive and user-friendly applications.
+            I am particularly passionate about JavaScript and its ecosystem. I
+            enjoy exploring the latest web development technologies and
+            frameworks to create responsive and user-friendly applications.
           </p>
           <p>
-            Apart from coding, I have a love for dogs and enjoy spending time with them. In my free time, 
-            I also like to experiment with different recipes in the kitchen and try my hand at cooking.
+            Apart from coding, I have a love for dogs and enjoy spending time
+            with them. In my free time, I also like to experiment with different
+            recipes in the kitchen and try my hand at cooking.
           </p>
-         
         </div>
         <div className="image">
           <img src="/unnamed.jpg" alt="Profile Picture" />
