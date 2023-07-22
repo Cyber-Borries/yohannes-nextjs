@@ -42,7 +42,7 @@ const Projects = () => {
           {projects.map((project) => (
             <li key={project.id}>
               <div className="project-item">
-                <a href={project.url} target="_blank" rel="noopener noreferrer">
+                <a href={project.url} rel="noopener noreferrer">
                   <img src={project.imagePath} alt={project.name} />
                 </a>
                 <div className="project-info">
